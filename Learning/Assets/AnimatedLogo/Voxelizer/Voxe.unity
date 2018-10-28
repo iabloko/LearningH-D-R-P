@@ -437,7 +437,7 @@ PrefabInstance:
     - target: {fileID: 9144192768055506205, guid: 1eeeecc7cb18c9d4e86d417717044b94,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.50966156
+      value: -0.773
       objectReference: {fileID: 0}
     - target: {fileID: 9144192768055506205, guid: 1eeeecc7cb18c9d4e86d417717044b94,
         type: 3}
@@ -483,6 +483,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Skull
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144192768055506201, guid: 1eeeecc7cb18c9d4e86d417717044b94,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144192768055506207, guid: 1eeeecc7cb18c9d4e86d417717044b94,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144192768055506207, guid: 1eeeecc7cb18c9d4e86d417717044b94,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144192768055506201, guid: 1eeeecc7cb18c9d4e86d417717044b94,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.007
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eeeecc7cb18c9d4e86d417717044b94, type: 3}
