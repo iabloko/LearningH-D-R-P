@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0031748149, g: 0.004725732, b: 0.007961959, a: 1}
+  m_IndirectSpecularColor: {r: 0.003174831, g: 0.0047257785, b: 0.007961983, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -113,6 +113,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &943340705
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574703, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 706372658754574702, guid: 8db132c8b3a300e4691d16fb5d47ba70,
+        type: 3}
+      propertyPath: m_Name
+      value: Scene
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8db132c8b3a300e4691d16fb5d47ba70, type: 3}
 --- !u!1 &1990411183
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,12 +560,12 @@ PrefabInstance:
     - target: {fileID: 6784329662561349349, guid: 9b12fde7d121e1d4983592590ae011a1,
         type: 3}
       propertyPath: NoiseModule.strength.scalar
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6784329662561349349, guid: 9b12fde7d121e1d4983592590ae011a1,
         type: 3}
       propertyPath: NoiseModule.strength.minScalar
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6784329662561349349, guid: 9b12fde7d121e1d4983592590ae011a1,
         type: 3}
@@ -526,17 +595,17 @@ PrefabInstance:
     - target: {fileID: 6784329663158626337, guid: 9b12fde7d121e1d4983592590ae011a1,
         type: 3}
       propertyPath: startDelay.scalar
-      value: 0.7
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 6784329662306140926, guid: 9b12fde7d121e1d4983592590ae011a1,
         type: 3}
       propertyPath: startDelay.scalar
-      value: 0.7
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 6784329662561349349, guid: 9b12fde7d121e1d4983592590ae011a1,
         type: 3}
       propertyPath: startDelay.scalar
-      value: 0.95
+      value: 1.95
       objectReference: {fileID: 0}
     - target: {fileID: 6784329662561349349, guid: 9b12fde7d121e1d4983592590ae011a1,
         type: 3}
@@ -703,74 +772,15 @@ PrefabInstance:
       propertyPath: NoiseModule.remap.maxCurve.m_Curve.Array.data[1].outWeight
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9b12fde7d121e1d4983592590ae011a1, type: 3}
---- !u!1001 &8606311332976996451
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
+    - target: {fileID: 6784329662572367507, guid: 9b12fde7d121e1d4983592590ae011a1,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
+      propertyPath: startDelay.scalar
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
+    - target: {fileID: 6784329662561349349, guid: 9b12fde7d121e1d4983592590ae011a1,
         type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363656, guid: df819813358104e40a78b3df992cc85a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606311333057363657, guid: df819813358104e40a78b3df992cc85a,
-        type: 3}
-      propertyPath: m_Name
-      value: Scene
+      propertyPath: NoiseModule.frequency
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: df819813358104e40a78b3df992cc85a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 9b12fde7d121e1d4983592590ae011a1, type: 3}
