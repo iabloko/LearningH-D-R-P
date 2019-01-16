@@ -72,8 +72,8 @@ public sealed class Voxelizer : MonoBehaviour, ITimeControl, IPropertyPreview {
     float _controlTime = -1;
 
     public void OnControlTimeStart () {
-        
-     }
+
+    }
 
     public void OnControlTimeStop () {
         _controlTime = -1;
